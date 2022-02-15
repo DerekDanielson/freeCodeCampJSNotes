@@ -201,7 +201,20 @@ function functionWithArgs(param1, param2) {
 // 11
 
 
+
 // Return a value from a function with Return
+/* Pass values into a function with "arguments", "return" statement to send a value back out of a function */
+function plusFive(num) {
+    return num + 5;
+}
+
+const answer = plusFive(5);
+// 25
+
+
+
+// Global Scope and Functions
+
 
 
 
