@@ -272,6 +272,85 @@ processed = processArg(7);
 
 // Queue is an abstract Data Structure where items are kept in order
 /* New items are added to back of the queue and old items are taken off from the front of the queue */
+function nextInLine(arr, item){
+  arr.push(item);
+  var removed = arr.shift();
+  return removed;
+}
+
+const defaultArr = [1, 2, 3, 4, 5, 6];
+
+nextInLine([], 7);
+//1 and [2,3,4,5,6,7]
+
+
+
+//Boolean Values
+/* Booleans may be "true" or "false" values.  Basically on-off switches.  "true" is on and "false" is off. These two states are mutually exclusive */
+
+
+
+//Conditional Logic with If statements
+/* "if" statements are used to make decisions.  Keyword "if" tells JS to execute the code in the curly braces under certain conditions, defined in the parentheses.  These conditions are Boolean conditions.
+
+When the condition evaluates to "true", the program executes the statement inside the curly braces.  When Boolean condition evaluates to "false", the statement inside the curly braces will not execute */
+/*
+if (condition is true) {
+  statement is executed
+}
+*/
+function trueOrFalse(wasThatTrue) {
+  if (wasThatTrue) {
+    return "Yes, that was true";
+  }
+  return "No, that was false";
+}
+
+
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
